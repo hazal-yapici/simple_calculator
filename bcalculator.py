@@ -5,7 +5,7 @@ root.title('simple Calculator')
 
 display=Entry(root,width=40,borderwidth=5,justify=CENTER)
 display.grid(row=0,columnspan=4)
-
+#button click call back function
 def b_click(number):
    
     display.get()
